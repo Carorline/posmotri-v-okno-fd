@@ -103,17 +103,20 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 400;
   line-height: 21.6px;
   text-align: left;
+  color:inherit;
   margin-bottom: 5px;
 }
 
 .search-form__label {
   display: flex;
   width: fit-content;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 
@@ -139,11 +142,11 @@ ol {
 .search-form__textfield {
   width: 225px;
   background-color: transparent;
-  font-family: Fira Sans Condensed,Arial, Helvetica, sans-serif;
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 21.6px;
-  color: #FFFFFFB2;
+  color: inherit;
   border: solid #FFFFFF;
   border-width: 1px 0 1px 0;
   appearance: none;
@@ -181,14 +184,14 @@ ol {
 }
 
 .button {
-  border: 1px solid #FFFFFF;
+  border: 1px solid currentColor;
   background-color: transparent;
-  font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
+  font-family: inherit;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 21.6px;
   text-align: center;
-  color: #FFFFFF;
+  color: inherit;
 }
 
 .button:active {
@@ -206,7 +209,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid currentColor;
   outline-offset: 2px;
 }
 
@@ -219,6 +222,7 @@ ol {
 .more-button {
   width: 100%;
   padding: 6px 0px;
+  margin-top: 30px;
 }
 
 .content__details {
@@ -255,7 +259,6 @@ ol {
   gap: 30px;
   width: 390px;
   margin-top: 2px;
-  margin-bottom: 30px;
 }
 
 .content__list-item {
@@ -315,9 +318,9 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
+  font-family: inherit;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 16.2px;
   line-clamp: 1;
 }
