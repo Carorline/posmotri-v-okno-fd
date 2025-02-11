@@ -1,1 +1,1 @@
-git@github.com:Carorline/posmotri-v-okno-fd.git
+https://github.com/Carorline/posmotri-v-okno-fd
