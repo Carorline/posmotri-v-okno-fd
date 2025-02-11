@@ -64,7 +64,6 @@ ol {
 }
 
 .content {
-  /* margin: 133px 30px; */
   inline-size: 1140px;
   display: grid;
   grid-template-columns: 1fr 1fr;
